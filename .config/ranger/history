@@ -1,0 +1,8 @@
+open_with chromium
+
+mkdir NSREC
+search .ssh
+wq
+delete
+rename i3
+search .x

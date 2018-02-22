@@ -1,0 +1,30 @@
+[Default Applications]
+application/zip=userapp-dtrx-M0OUZY.desktop
+text/plain=gvim.desktop
+text/html=chromium.desktop
+x-scheme-handler/http=chromium.desktop
+x-scheme-handler/https=chromium.desktop
+x-scheme-handler/about=chromium.desktop
+x-scheme-handler/unknown=chromium.desktop
+application/pdf=mupdf.desktop
+
+[Added Associations]
+application/zip=userapp-dtrx-M0OUZY.desktop;
+application/pdf=mupdf.desktop;
+x-scheme-handler/http=exo-web-browser.desktop
+x-scheme-handler/https=exo-web-browser.desktop
+text/x-matlab=gvim.desktop;libreoffice-writer.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
+text/plain=gvim.desktop;libreoffice-writer.desktop;
+video/x-flv=mpv.desktop;
+image/jpeg=feh.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop;
+image/png=feh.desktop;
+video/x-matroska=mpv.desktop;chromium.desktop;
+application/x-shellscript=gvim.desktop;
+video/mp4=mpv.desktop;
+audio/mpeg=mpv.desktop;
+image/x-xcursor=gvim.desktop;
+application/x-ms-dos-executable=wine.desktop;
+text/x-eiffel=gvim.desktop;
+image/x-olympus-orf=shotwell-viewer.desktop;darktable.desktop;

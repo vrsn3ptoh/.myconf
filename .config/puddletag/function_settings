@@ -1,0 +1,73 @@
+{
+  "puddlestuff.functions_formatValue": {
+    "fields": [
+      "__selected"
+    ], 
+    "arguments": [
+      ""
+    ]
+  }, 
+  "puddlestuff.functions_move": {
+    "fields": [
+      "just nothing to do with this"
+    ], 
+    "arguments": [
+      "$num(%track%,2)_%artist%_%title%"
+    ]
+  }, 
+  "puddlestuff.functions_replace": {
+    "fields": [
+      "__selected"
+    ], 
+    "arguments": [
+      "%albumartist", 
+      "%artist", 
+      false, 
+      false
+    ]
+  }, 
+  "puddlestuff.functions_tag_dir": {
+    "fields": [
+      "just nothing to do with this"
+    ], 
+    "arguments": [
+      "music/%filetype%/%albumartist%/%album%"
+    ]
+  }, 
+  "puddlestuff.functions_merge_values": {
+    "fields": [
+      "artist; albumartist"
+    ], 
+    "arguments": [
+      ";"
+    ]
+  }, 
+  "puddlestuff.functions_autonumbering": {
+    "fields": [
+      "__selected"
+    ], 
+    "arguments": [
+      1, 
+      false, 
+      1
+    ]
+  }, 
+  "puddlestuff.functions_filenametotag": {
+    "fields": [
+      "just nothing to do with this"
+    ], 
+    "arguments": [
+      ""
+    ]
+  }, 
+  "puddlestuff.functions_texttotag": {
+    "fields": [
+      "albumartist"
+    ], 
+    "arguments": [
+      "", 
+      "", 
+      "%artist%"
+    ]
+  }
+}

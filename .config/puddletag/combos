@@ -1,0 +1,66 @@
+{
+  "w&ith:": {
+    "values": [
+      "", 
+      "artist", 
+      "%artist", 
+      "Arnold & Sweater Beats", 
+      "%artist"
+    ]
+  }, 
+  "&Pattern (can be relative path)": {
+    "values": [
+      "%artist% - %album%", 
+      "newtunes/%albumartist%/%album%", 
+      "%albumartist%/%album%", 
+      "%filetype%/%albumartist%/%album%", 
+      "music/%filetype%/%albumartist%/%album%"
+    ]
+  }, 
+  "&Text": {
+    "values": [
+      "%artist%", 
+      "", 
+      ""
+    ]
+  }, 
+  "&Output": {
+    "values": [
+      "", 
+      "%artist%", 
+      "%artist%"
+    ]
+  }, 
+  "filter_text": {
+    "values": [
+      "", 
+      ""
+    ]
+  }, 
+  "&Pattern": {
+    "values": [
+      "", 
+      "$num(%track%,2)_%title%", 
+      "$num(%track%,2)_%artist%_%title%"
+    ]
+  }, 
+  "&Replace": {
+    "values": [
+      "", 
+      "albumartist", 
+      "%albumartist", 
+      "Arnold & Sweater Beats", 
+      "%albumartist"
+    ]
+  }, 
+  "&Format string": {
+    "values": [
+      ""
+    ]
+  }, 
+  "&Separator": {
+    "values": [
+      ";"
+    ]
+  }
+}

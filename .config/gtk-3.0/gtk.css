@@ -1,0 +1,19 @@
+/* Black on white for HTML messages in Evolution Reader/Composer */
+EMailView GtkHTML {
+    color: #000000;
+    background-color: #ffffff;
+}
+EMsgComposer GtkHTML {
+    color: #000000;
+    background-color: #ffffff;
+}
+/* Properly select text in HTML message */
+EMailDisplay GtkHTML:selected {
+    color: @selected_fg_color;
+    background-color: @selected_bg_color;
+}
+/* Highlight selected message in message list when list is unfocused */
+EMailReader MessageList ECanvas:active {
+    color: @selected_fg_color;
+    background-color: @selected_bg_color;
+}
